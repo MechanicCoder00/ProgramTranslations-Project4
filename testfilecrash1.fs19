@@ -1,0 +1,16 @@
+var x0 : 1
+start
+  var x1 : 3
+  in x0 ;
+  out x1 ;
+  start
+    var x2 : 5
+    in x0 ;
+    out x1 ;
+    start
+        var x3 : 5
+        in x0 ;
+    stop ;
+  stop ;
+  out x1 ;
+stop
